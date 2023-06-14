@@ -29,6 +29,16 @@ It is the result of quantising to 4bit using [AutoGPTQ](https://github.com/PanQi
 * [4, 5, and 8-bit GGML models for CPU+GPU inference](https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML)
 * [WizardLM's unquantised fp16 model in pytorch format, for GPU inference and for further conversions](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
 
+## Prompt template
+
+```
+Below is an instruction that describes a task. Write a response that appropriately completes the request
+
+### Instruction: prompt
+
+### Response:
+```
+
 ## How to easily download and use this model in text-generation-webui
 
 Please make sure you're using the latest version of text-generation-webui
